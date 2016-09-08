@@ -234,39 +234,39 @@ export default class Toolbar extends React.Component {
 
 export const BLOCK_BUTTONS = [
   {
-    label: 'H3',
-    style: 'header-three',
+    label: 'H2',
+    style: 'header-two',
     icon: 'header',
-    description: 'Heading 3',
+    description: 'Heading 2',
   },
   // {
   //   label: 'P',
   //   style: 'unstyled',
   //   description: 'Paragraph',
   // },
-  {
-    label: 'Q',
-    style: 'blockquote',
-    icon: 'quote-right',
-    description: 'Blockquote',
-  },
+  // {
+  //   label: 'Q',
+  //   style: 'blockquote',
+  //   icon: 'quote-right',
+  //   description: 'Blockquote',
+  // },
   {
     label: 'UL',
     style: 'unordered-list-item',
     icon: 'list-ul',
     description: 'Unordered List',
   },
-  {
-    label: 'OL',
-    style: 'ordered-list-item',
-    icon: 'list-ol',
-    description: 'Ordered List',
-  },
-  {
-    label: '✓',
-    style: 'todo',
-    description: 'Todo List',
-  },
+  // {
+  //   label: 'OL',
+  //   style: 'ordered-list-item',
+  //   icon: 'list-ol',
+  //   description: 'Ordered List',
+  // },
+  // {
+  //   label: '✓',
+  //   style: 'todo',
+  //   description: 'Todo List',
+  // },
 ];
 
 export const INLINE_BUTTONS = [
@@ -288,17 +288,17 @@ export const INLINE_BUTTONS = [
     icon: 'underline',
     description: 'Underline',
   },
-  // {
-  //   label: 'S',
-  //   style: 'STRIKETHROUGH',
-  //   icon: 'strikethrough',
-  //   description: 'Strikethrough',
-  // },
   {
-    label: 'Hi',
-    style: 'HIGHLIGHT',
-    description: 'Highlight selection',
+    label: 'S',
+    style: 'STRIKETHROUGH',
+    icon: 'strikethrough',
+    description: 'Strikethrough',
   },
+  // {
+  //   label: 'Hi',
+  //   style: 'HIGHLIGHT',
+  //   description: 'Highlight selection',
+  // },
   // {
   //   label: 'Code',
   //   style: 'CODE',

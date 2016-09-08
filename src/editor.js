@@ -326,7 +326,8 @@ class MediumDraftEditor extends React.Component {
   render() {
     const { editorState, editorEnabled } = this.props;
     // const currentBlockType = RichUtils.getCurrentBlockType(this.props.editorState);
-    const showAddButton = editorEnabled; // && currentBlockType.indexOf('atomic:') < 0;
+    // const showAddButton = editorEnabled; // && currentBlockType.indexOf('atomic:') < 0;
+    const showAddButton = false; // Don't ever show the side (add / + sign) button.
     return (
       <div className="RichEditor-root">
         <div className="RichEditor-editor">
